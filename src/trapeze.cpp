@@ -7,7 +7,7 @@ Trapeze::Trapeze(const long double & x, const long double & y, const long double
 	if (B > A) {
 		std::swap(A, B);
 	}
-};
+}
 
 long double Trapeze::FigureSquare() {
 	long double diff = (A - B) / 2.0;

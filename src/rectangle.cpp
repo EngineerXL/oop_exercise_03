@@ -4,7 +4,7 @@ Rectangle::Rectangle(const long double & x, const long double & y, const long do
 	if (A < 0.0 or B < 0.0) {
 		throw std::invalid_argument("Invalid rectangle parameters!");
 	}
-};
+}
 
 long double Rectangle::FigureSquare() {
 	return A * B;
