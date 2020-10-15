@@ -3,7 +3,7 @@
 
 #include <bits/stdc++.h>
 
-struct Cord {
+class Cord {
 protected:
 	long double X, Y;
 public:
